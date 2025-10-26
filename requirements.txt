@@ -1,0 +1,9 @@
+aiohttp>=3.9.0
+asyncio
+requests>=2.31.0
+web3>=6.0.0
+eth-account>=0.10.0
+pyjwt>=2.8.0
+python-dotenv>=1.0.1
+colorama>=0.4.6
+aiofiles==23.2.1
