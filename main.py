@@ -364,6 +364,8 @@ def run_worker_sync(worker_payload):
 
     account_index = worker_payload["account_index"]
 
+    # worker
+
     async def worker_async():
         try:
             client = PharosClient(

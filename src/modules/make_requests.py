@@ -13,6 +13,8 @@ async def _request(self, url, method, data=None, options={"retries": 1, "isAuth"
     error_message = ""
     error_status = 0
 
+    # Main request
+
     while current_retries <= retries:
         try:
             timeout = aiohttp.ClientTimeout(total=120)
