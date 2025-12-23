@@ -15,10 +15,10 @@ Pharos atlantic testnet -- an automated Python script for interacting with platf
 -  **Auto Referral**: Support to Register a new account with Referral
 -  **Wallet Handling**: `Shuffle` wallets and `configure` pauses between operations.
 -  **Auto Send Token**: Support sending PHRS token to an address listed on `wallets.txt`
--  **Token Swaps**: `SOON`
--  **Liquidity**: `SOON`
--  **WRAP/UNWRAP**: `SOON`
--  **COLLECT NFTs**: `SOON`
+-  **Token Swaps**: Support Swapping on `bitverse`& `Faroswap`
+-  **Liquidity**: Support Provide Liquidity on `bitverse`& `Faroswap`
+-  **WRAP/UNWRAP**: Support Swap and Unwrap via contract
+-  **COLLECT NFTs**: Collect NFTs `Grandline` only.
 -  **Quest Completion**: Support automatic quest completions (must connect x)
 -  **Gas Refueling**: Refill gas when it going to 0.
 -  **Access Token & User Agent**: Support saving session for `AccessToken & UserAgent`
