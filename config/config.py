@@ -14,7 +14,6 @@ settings = {
     "MAX_THREADS": int(os.getenv("MAX_THREADS", 10)),
     "MAX_THREADS_NO_PROXY": int(os.getenv("MAX_THREADS_NO_PROXY", 10)),
     "NUMBER_SEND": int(os.getenv("NUMBER_SEND", 10)),
-
     "SKIP_TASKS": json.loads(os.getenv("SKIP_TASKS", "[]").replace("'", '"')),
     "TASKS_ID": json.loads(os.getenv("TASKS_ID", "[]").replace("'", '"')),
     "ENABLE_DEBUG": os.getenv("ENABLE_DEBUG", "false").lower() == "true",
@@ -23,7 +22,6 @@ settings = {
     "USE_PROXY": os.getenv("USE_PROXY", "false").lower() == "true",
     "AUTO_FAUCET": os.getenv("AUTO_FAUCET", "false").lower() == "true",
     "AUTO_SEND": os.getenv("AUTO_SEND", "false").lower() == "true",
-
     "BASE_URL": os.getenv("BASE_URL", None),
     "REF_CODE": os.getenv("REF_CODE", "13GJn8jQN7Hln7WJ"),
     "TYPE_CAPTCHA": os.getenv("TYPE_CAPTCHA", None),

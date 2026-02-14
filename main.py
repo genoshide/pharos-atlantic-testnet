@@ -312,7 +312,6 @@ class PharosClient:
             except Exception as e:
                 self.log(f"Proxy check failed: {e}", "error")
                 return
-
         self.token = await self._get_valid_auth_token()
         if not self.token:
             self.log("Failed to get a valid token. Aborting.", "error")
