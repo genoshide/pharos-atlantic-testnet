@@ -25,15 +25,15 @@ Pharos atlantic testnet -- an automated Python script for interacting with platf
 -  **Multithread support**: Run your bot faster (10 account with default setting completely in 5 minutes)
 -  
 ### Dapp Feature
--  **Grandline **: Auto Claim All Available Badge
--  **AquaFlux  **: Mint Standard & Premium NFT
+-  **Grandline**: Auto Claim All Available Badge
+-  **AquaFlux**: Mint Standard & Premium NFT
 -  **Gotchipus**: Auto trade, deposit, withdraw
 -  **Primuslabs**: Auto send tips via X Handler (social tipping)
 -  **Pharos Name Service**: Mint Random .phrs Domain
 -  **Spout Finance**: KYC, random trades, and account automation
 -  **Bitverse**: NFT minting & wearable claiming
 -  **OpenFi**: Lending, borrowing & DeFi services
--  **Brokex **: Faucet claim and trade automation
+-  **Brokex**: Faucet claim and trade automation
 -  **FaroSwap**: Swap and liquidity automation
 -  **Zenith Swap**: Swap and liquidity automation
   
