@@ -63,7 +63,7 @@ Pharos atlantic testnet -- an automated Python script for interacting with platf
 3. Install the dependencies:
    The requirements.txt ensure your requirements.txt looks like this before installing:
    ```yaml
-   aiohttp>=3.9.0
+   aiohttp==3.11.10
    asyncio
    requests>=2.31.0
    web3>=6.0.0
@@ -72,6 +72,13 @@ Pharos atlantic testnet -- an automated Python script for interacting with platf
    python-dotenv>=1.0.1
    colorama>=0.4.6
    aiofiles==23.2.1
+   curl-cffi==0.10.0
+   eth-abi==5.2.0
+   cryptography==36.0.0
+   fake-useragent==1.5.1
+   aiohttp-socks==0.9.1
+   eth-utils==5.3.0
+   pytz==2024.1
    ```
    Then install:
    ```bash
